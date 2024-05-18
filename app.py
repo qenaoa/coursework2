@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def handle_request():
-    data = {'message': 'Hello, World! Test message'}
+    data = {'message': 'Hello, World! Test message1 Test2'}
     return jsonify(data)
 
 if __name__ == '__main__':
