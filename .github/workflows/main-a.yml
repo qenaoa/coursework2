@@ -29,9 +29,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
-      # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       - name: Syntax test
-        run: python -m py_compile ./app.py  # Adjust this command according to your testing framework
+        run: python -m py_compile ./app.py
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
