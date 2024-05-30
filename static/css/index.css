@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body{
+    background-color: #161616;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-weight: 700;
+                                                
+}
+
+/* header{
+  max-width: 100%;
+} */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar__brand{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__login {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__login a{
+  text-decoration: none;
+  margin-left: 0;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+
+  
+}
+.navbar__login a:hover{
+  transition-duration: 0.4s;
+  color:#141414
+}
+.navbar__login-item1, .navbar__login-item2{
+  background-color: #141414;
+  border-radius: 30px;
+  border: 2px solid white;
+  margin-right: 15px;
+
+}
+.navbar__login-item1:hover, .navbar__login-item2:hover{
+  background-color: white;
+  transition-duration: 0.4s;
+  border: 2px solid #141414;
+}
+
+main h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-top: 10%;
+}
+main {
+  text-align: center;
+  line-height: 570%;
+}
+
+.search_bar button {
+  position: absolute;
+  background: transparent;
+  border: transparent;
+  font-size: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: 0;
+  top: 349px;
+  left: 509px;
+}
+.search_bar input {
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+  width: 505px;
+  height: 70px;
+  /* margin: 37px auto; */
+  background-color: #373737;
+  border-radius: 70px;
+  border: none;
+  outline: 2px rgb(45, 2, 2);
+  padding-inline-start: 65px;
+  padding-inline-end: 30px;
+
+}
+
+footer {
+  height: calc(100vh - 441px);
+  display: flex;
+  align-items: flex-end;
+  
+}
+footer img {
+  max-width: 100%;
+
+}
